@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Shannon O'Donovan — Quantitative AI System Assurance">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f6f8fa"/>
+      <stop offset="100%" stop-color="#eef2f6"/>
+    </linearGradient>
+    <linearGradient id="ridgeFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f7d5c" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#0f7d5c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9a6b00"/>
+      <stop offset="100%" stop-color="#9a6b00" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="chartClip">
+      <rect x="646" y="60" width="490" height="220"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+
+  <!-- design-space lattice -->
+  <g fill="#cbd5e1">
+    <g>
+      <circle cx="672" cy="88" r="1.8"/><circle cx="737" cy="88" r="1.8"/><circle cx="802" cy="88" r="1.8"/><circle cx="867" cy="88" r="1.8"/><circle cx="932" cy="88" r="1.8"/><circle cx="997" cy="88" r="1.8"/><circle cx="1062" cy="88" r="1.8"/><circle cx="1127" cy="88" r="1.8"/>
+      <circle cx="672" cy="134" r="1.8"/><circle cx="737" cy="134" r="1.8"/><circle cx="802" cy="134" r="1.8"/><circle cx="867" cy="134" r="1.8"/><circle cx="932" cy="134" r="1.8"/><circle cx="997" cy="134" r="1.8"/><circle cx="1062" cy="134" r="1.8"/><circle cx="1127" cy="134" r="1.8"/>
+      <circle cx="672" cy="180" r="1.8"/><circle cx="737" cy="180" r="1.8"/><circle cx="802" cy="180" r="1.8"/><circle cx="867" cy="180" r="1.8"/><circle cx="932" cy="180" r="1.8"/><circle cx="997" cy="180" r="1.8"/><circle cx="1062" cy="180" r="1.8"/><circle cx="1127" cy="180" r="1.8"/>
+      <circle cx="672" cy="226" r="1.8"/><circle cx="737" cy="226" r="1.8"/><circle cx="802" cy="226" r="1.8"/><circle cx="867" cy="226" r="1.8"/><circle cx="932" cy="226" r="1.8"/><circle cx="997" cy="226" r="1.8"/><circle cx="1062" cy="226" r="1.8"/><circle cx="1127" cy="226" r="1.8"/>
+    </g>
+  </g>
+
+  <!-- control limits -->
+  <g stroke="#9a6b00" stroke-width="1" opacity="0.45" stroke-dasharray="7 6">
+    <line x1="648" y1="95" x2="1132" y2="95"/>
+    <line x1="648" y1="205" x2="1132" y2="205"/>
+  </g>
+  <line x1="648" y1="150" x2="1132" y2="150" stroke="#9a6b00" stroke-width="1.2" opacity="0.7"/>
+
+  <g font-family="'SF Mono','Consolas','Courier New',monospace" font-size="9" fill="#6b7480" letter-spacing="1">
+    <text x="1140" y="98">UCL</text>
+    <text x="1140" y="153">CL</text>
+    <text x="1140" y="208">LCL</text>
+  </g>
+
+  <!-- ridge / response curve -->
+  <g clip-path="url(#chartClip)">
+    <path d="M660,206 L706,178 L752,188 L798,140 L844,158 L890,103 L936,128 L982,112 L1028,155 L1074,138 L1120,176 L1136,192 L1136,290 L646,290 Z" fill="url(#ridgeFill)"/>
+    <polyline points="660,206 706,178 752,188 798,140 844,158 890,103 936,128 982,112 1028,155 1074,138 1120,176"
+              fill="none" stroke="#0f7d5c" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+
+  <!-- run points -->
+  <g fill="#ffffff" stroke="#0f7d5c" stroke-width="2">
+    <circle cx="660" cy="206" r="3.6"/><circle cx="706" cy="178" r="3.6"/><circle cx="752" cy="188" r="3.6"/>
+    <circle cx="798" cy="140" r="3.6"/><circle cx="844" cy="158" r="3.6"/><circle cx="936" cy="128" r="3.6"/>
+    <circle cx="982" cy="112" r="3.6"/><circle cx="1028" cy="155" r="3.6"/><circle cx="1074" cy="138" r="3.6"/>
+    <circle cx="1120" cy="176" r="3.6"/>
+  </g>
+  <circle cx="890" cy="103" r="5" fill="#9a6b00"/>
+  <circle cx="890" cy="103" r="10" fill="none" stroke="#9a6b00" stroke-width="1" opacity="0.5"/>
+
+  <!-- wordmark -->
+  <text x="64" y="118" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="46" font-weight="700" fill="#1f2328" letter-spacing="0.5">SHANNON O&#8217;DONOVAN</text>
+
+  <rect x="64" y="138" width="300" height="2" fill="url(#rule)"/>
+
+  <text x="64" y="178" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="21" font-weight="400" fill="#9a6b00">Quantitative AI System Assurance</text>
+
+  <text x="64" y="212" font-family="'SF Mono','Consolas','Courier New',monospace"
+        font-size="12" fill="#59636e" letter-spacing="3.2">DOE  ·  RAG EVALUATION  ·  APPLIED STATISTICS</text>
+
+  <text x="64" y="240" font-family="'SF Mono','Consolas','Courier New',monospace"
+        font-size="11" fill="#7d8794" letter-spacing="2">CRESTED BUTTE, COLORADO</text>
+</svg>
