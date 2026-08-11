@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="Shannon O'Donovan - Quantitative AI System Assurance" width="100%">
+  <img src="banner-light.png" alt="Shannon O'Donovan - Quantitative AI System Assurance" width="100%">
 </p>
 
 <h1 align="center">Shannon O'Donovan</h1>
