@@ -7,7 +7,7 @@
 <p align="center">
   <b>I answer AI's hardest question: can we trust this system's output in production?</b><br>
   Quantitative AI System Assurance</br>
- < <sub>Boulder, Colorado</sub> -->
+
 </p>
 
 <!-- Row 1: Core languages & data -->
