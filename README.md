@@ -58,7 +58,7 @@
 ---
 
 ## The short version
-For 20 years, I've used technology to understand, redesign, and optimize business processes.  My expertise is in data, decision support, ML, and enterprise systems from data platforms and ML systems to Salesforce and complex operational environments. I'm now applying that same quantitative toolkit to answer: How can we trust the output of AI systems by creating measurable confidence?
+For 20 years, I've used technology to understand, redesign, and optimize business processes.  My expertise is in data, decision support, ML, and enterprise systems. I'm now applying that same quantitative toolkit to answer: How can we trust the output of AI systems by creating measurable confidence?
 
 My background spans finance, IT, and operations, where I have used statistical process control, design of experiments, and data-driven evaluation methods to improve system reliability and decision quality.  My recent research is in testing RAG and agentic AI workflows, focusing on grounding fidelity, retrieval effectiveness, measurable performance against defined objectives and cost effectiveness. I believe trustworthy AI is built through rigorous evaluation, not just model capability.
 
@@ -160,6 +160,25 @@ validity.
 <br>
 
 Twenty years of enterprise architecture, Six Sigma, and decision-support delivery across finance, operations, and technology — now applied to the hardest problem in production AI: knowing whether to trust the output. I architect and evaluate LLM-based systems by applying a diverse tool set: system design, financial accounting, and statistical process control.  
+
+</details>
+
+<details>
+<summary><b>Publications & Presentations</b> — click to expand</summary>
+
+<br>
+
+**Publications**
+
+- O'Donovan, Shannon. "Athenian Vases and Heroes out of Context: Discovering what Theseus is doing in Etruria" *Etruscan Studies*, vol. 23, no. 1–2, 2020, pp. 62–106. [https://doi.org/10.1515/etst-2018-0024](https://doi.org/10.1515/etst-2018-0024)
+
+**Presentations**
+
+- **2017** AIA Annual Meeting: "Imperial Itinerancy in the Achaemenid Persian Empire" (co-presented with Emily Wilson)
+- **2016** 6th Conference Italian Archaeology: "Data Mining the Beazley Archive: Hidden Associations in Attic Red-Figure"
+- **2016** ASOR Annual Meeting: "Itinerant Iconography: Travel and the Individual in the Persepolis Fortification Archive" (co-presented with Emily Wilson)
+- **2015** ASOR Annual Meeting: "Data Mining and the Persepolis Fortification Archive" (co-presented with Emily Wilson)
+- **2015** AIA Annual Meeting: "Data Mining and Athenian Red-Figure Vases in Context"
 
 </details>
 
