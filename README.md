@@ -58,10 +58,9 @@
 ---
 
 ## The short version
+For 20 years, I've used technology to understand, redesign, and optimize business processes.  My expertise is in data, decision support, ML, and enterprise systems from data platforms and ML systems to Salesforce and complex operational environments. I'm now applying that same quantitative toolkit to answer: How can we trust the output of AI systems by creating measurable confidence?
 
-Twenty years of enterprise architecture, Six Sigma, and decision-support delivery across finance, operations, and technology — now applied to the hardest problem in production AI: knowing whether to trust the output. I architect and evaluate LLM-based systems with the same rigor I've applied to SQL Server migrations, contact center transformations, and ML model production releases.
-
-My background spans finance, IT, and operations, where I have used statistical process control, design of experiments, and data-driven evaluation methods to improve system reliability and decision quality. I specialize in testing RAG and agentic AI workflows, focusing on grounding fidelity, retrieval effectiveness, and measurable performance against defined objectives. I believe trustworthy AI is built through rigorous evaluation, not just model capability.
+My background spans finance, IT, and operations, where I have used statistical process control, design of experiments, and data-driven evaluation methods to improve system reliability and decision quality.  My recent research is in testing RAG and agentic AI workflows, focusing on grounding fidelity, retrieval effectiveness, measurable performance against defined objectives and cost effectiveness. I believe trustworthy AI is built through rigorous evaluation, not just model capability.
 
 ---
 
@@ -74,16 +73,16 @@ My background spans finance, IT, and operations, where I have used statistical p
 ### RAG Agent Evaluation Framework
 **[RAG_DOE-GroundedAgentLab →](https://github.com/CoDataGuy/RAG_DOE-GroundedAgentLab)**
 
-A nine-phase build of a retrieval-grounded teaching agent and the statistical
+An in process nine-phase build of a retrieval-grounded teaching agent and the statistical
 framework used to evaluate it. Covers randomized complete block design, fractional
 factorial studies, LLM-as-judge batch scoring, and scorer validation via Cohen's
 Kappa.
 
-**Result worth reading:** temperature (0.3–0.8) showed no statistically significant
-effect on Rule Grounding Score. A null result — and a useful one, because it means
+**Initial Finding*:** temperature (0.3–0.8) showed no statistically significant
+effect on Rule Grounding Score. A null result —indicating that
 retrieval design absorbed the sampling variability.
 
-`RCBD` `ANOVA` `LLM-as-Judge` `MSA` `Prompt caching`
+`RCBD` `ANOVA` `LLM-as-Judge` `MSA` `Prompt caching` 'Cohen's Kappa'
 
 </td>
 <td width="33%" valign="top">
@@ -100,7 +99,7 @@ evaluation surfaced systematic weaknesses in agent-driven statistical reasoning,
 demonstrating where explicit constraints, baseline comparisons, and human judgment
 remain essential.
 
-**Result worth reading:** the agent selected wrong statistical tests, generated
+**Results:** the agent selected wrong statistical tests, generated
 hallucinated intermediate steps, and framed the analytical problem incorrectly —
 while producing output that read as fluent, confident, and complete. A reviewer
 without a baseline would not have caught it.
@@ -122,14 +121,16 @@ This project normalizes historical Formula 1 results using a standardized scorin
 framework and evaluates how conclusions change when the measurement system is
 controlled. Perceived all-time rankings are highly sensitive to scoring methodology.
 
-**Result worth reading:** rescoring every Grand Prix on a standardized scale moves
+**Insight:** rescoring every Grand Prix on a standardized scale moves
 Red Bull's raw total of 7,673 points to 4,072, while Williams rises from 3,641 to
 4,834. The "greatest of all time" debate is ultimately a question of measurement
 validity.
 
 `pandas` `NumPy` `Normalization` `Exploratory analysis`
 
+
 </td>
+
 </tr>
 </table>
 
@@ -158,7 +159,7 @@ validity.
 
 <br>
 
-Twenty years of enterprise architecture, Six Sigma, and decision-support delivery across finance, operations, and technology — now applied to the hardest problem in production AI: knowing whether to trust the output. I architect and evaluate LLM-based systems with the same rigor I've applied to SQL Server migrations, contact center transformations, and ML model production releases.
+Twenty years of enterprise architecture, Six Sigma, and decision-support delivery across finance, operations, and technology — now applied to the hardest problem in production AI: knowing whether to trust the output. I architect and evaluate LLM-based systems by applying a diverse tool set: system design, financial accounting, and statistical process control.  
 
 </details>
 
