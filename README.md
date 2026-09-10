@@ -73,7 +73,7 @@ My background spans finance, IT, and operations, where I have used statistical p
 ### RAG Agent Evaluation Framework
 **[RAG_DOE-GroundedAgentLab →](https://github.com/CoDataGuy/RAG_DOE-GroundedAgentLab)**
 
-An in process nine-phase build of a retrieval-grounded teaching agent and the statistical
+In progress:  nine-phase build of a retrieval-grounded teaching agent and the statistical
 framework used to evaluate it. Covers randomized complete block design, fractional
 factorial studies, LLM-as-judge batch scoring, and scorer validation via Cohen's
 Kappa.
